@@ -1,0 +1,31 @@
+# Private source material and generated courseware stay local.
+.build/
+output/
+input/
+private/
+teacher-materials/
+student-data/
+
+# Secrets and local configuration.
+.env
+.env.*
+!.env.example
+*.pem
+*.key
+*.pfx
+*.p12
+
+# Large source/asset files require an explicit distribution decision.
+*.ppt
+*.pptx
+*.pdf
+*.glb
+*.gltf
+*.zip
+
+node_modules/
+.venv/
+__pycache__/
+*.pyc
+.DS_Store
+Thumbs.db
